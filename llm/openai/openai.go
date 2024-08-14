@@ -124,8 +124,18 @@ func (o *OpenAI) setUsageMetadata(usage openai.Usage) {
 func New() *OpenAI {
 	openAIKey := os.Getenv("OPENAI_API_KEY")
 
+	return NewFromConfig(Config{
+		OpenAIKey: openAIKey,
+	})
+}
+
+type Config struct {
+	OpenAIKey string
+}
+
+func NewFromConfig(config Config) *OpenAI {
 	return &OpenAI{
-		openAIClient: openai.NewClient(openAIKey),
+		openAIClient: openai.NewClient(config.OpenAIKey),
 		model:        GPT3Dot5Turbo,
 		temperature:  DefaultOpenAITemperature,
 		maxTokens:    DefaultOpenAIMaxTokens,
