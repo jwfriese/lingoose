@@ -1,9 +1,9 @@
 package langfuse
 
 import (
-	"github.com/henomis/langfuse-go/model"
-	"github.com/henomis/lingoose/observer"
-	"github.com/henomis/lingoose/thread"
+	"github.com/jwfriese/langfuse-go/model"
+	"github.com/jwfriese/lingoose/observer"
+	"github.com/jwfriese/lingoose/thread"
 )
 
 func langfuseTraceToObserverTrace(l *model.Trace) *observer.Trace {

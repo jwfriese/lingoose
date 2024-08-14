@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/henomis/lingoose/index"
-	indexoption "github.com/henomis/lingoose/index/option"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/index"
+	indexoption "github.com/jwfriese/lingoose/index/option"
+	"github.com/jwfriese/lingoose/types"
 )
 
 var ErrCacheMiss = fmt.Errorf("cache miss")

@@ -4,11 +4,11 @@ import (
 	"context"
 	"regexp"
 
-	"github.com/henomis/lingoose/document"
-	"github.com/henomis/lingoose/index"
-	"github.com/henomis/lingoose/textsplitter"
-	"github.com/henomis/lingoose/thread"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/document"
+	"github.com/jwfriese/lingoose/index"
+	"github.com/jwfriese/lingoose/textsplitter"
+	"github.com/jwfriese/lingoose/thread"
+	"github.com/jwfriese/lingoose/types"
 )
 
 const (

@@ -5,14 +5,14 @@ import (
 	"database/sql"
 	"fmt"
 
-	openaiembedder "github.com/henomis/lingoose/embedder/openai"
-	"github.com/henomis/lingoose/index"
-	indexoption "github.com/henomis/lingoose/index/option"
-	"github.com/henomis/lingoose/index/vectordb/postgres"
-	"github.com/henomis/lingoose/legacy/prompt"
-	"github.com/henomis/lingoose/llm/openai"
-	"github.com/henomis/lingoose/loader"
-	"github.com/henomis/lingoose/textsplitter"
+	openaiembedder "github.com/jwfriese/lingoose/embedder/openai"
+	"github.com/jwfriese/lingoose/index"
+	indexoption "github.com/jwfriese/lingoose/index/option"
+	"github.com/jwfriese/lingoose/index/vectordb/postgres"
+	"github.com/jwfriese/lingoose/legacy/prompt"
+	"github.com/jwfriese/lingoose/llm/openai"
+	"github.com/jwfriese/lingoose/loader"
+	"github.com/jwfriese/lingoose/textsplitter"
 	// uncomment to use postgres
 	// _ "github.com/lib/pq"
 )

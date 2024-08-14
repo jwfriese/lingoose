@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/henomis/lingoose/document"
-	"github.com/henomis/lingoose/index"
-	"github.com/henomis/lingoose/index/option"
-	"github.com/henomis/lingoose/loader"
-	obs "github.com/henomis/lingoose/observer"
-	"github.com/henomis/lingoose/textsplitter"
-	"github.com/henomis/lingoose/thread"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/document"
+	"github.com/jwfriese/lingoose/index"
+	"github.com/jwfriese/lingoose/index/option"
+	"github.com/jwfriese/lingoose/loader"
+	obs "github.com/jwfriese/lingoose/observer"
+	"github.com/jwfriese/lingoose/textsplitter"
+	"github.com/jwfriese/lingoose/thread"
+	"github.com/jwfriese/lingoose/types"
 )
 
 const (

@@ -4,14 +4,14 @@ import (
 	"context"
 	"fmt"
 
-	nomicembedder "github.com/henomis/lingoose/embedder/nomic"
-	"github.com/henomis/lingoose/index"
-	indexoption "github.com/henomis/lingoose/index/option"
-	"github.com/henomis/lingoose/index/vectordb/jsondb"
-	"github.com/henomis/lingoose/legacy/prompt"
-	"github.com/henomis/lingoose/llm/openai"
-	"github.com/henomis/lingoose/loader"
-	"github.com/henomis/lingoose/textsplitter"
+	nomicembedder "github.com/jwfriese/lingoose/embedder/nomic"
+	"github.com/jwfriese/lingoose/index"
+	indexoption "github.com/jwfriese/lingoose/index/option"
+	"github.com/jwfriese/lingoose/index/vectordb/jsondb"
+	"github.com/jwfriese/lingoose/legacy/prompt"
+	"github.com/jwfriese/lingoose/llm/openai"
+	"github.com/jwfriese/lingoose/loader"
+	"github.com/jwfriese/lingoose/textsplitter"
 )
 
 // download https://raw.githubusercontent.com/hwchase17/chat-your-data/master/state_of_the_union.txt

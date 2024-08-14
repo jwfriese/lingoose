@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/henomis/lingoose/embedder"
-	embobserver "github.com/henomis/lingoose/embedder/observer"
+	"github.com/jwfriese/lingoose/embedder"
+	embobserver "github.com/jwfriese/lingoose/embedder/observer"
 	"github.com/sashabaranov/go-openai"
 )
 

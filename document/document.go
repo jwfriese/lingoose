@@ -1,6 +1,6 @@
 package document
 
-import "github.com/henomis/lingoose/types"
+import "github.com/jwfriese/lingoose/types"
 
 type Document struct {
 	Content  string     `json:"content"`

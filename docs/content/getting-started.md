@@ -38,7 +38,7 @@ go mod tidy
 
 By default you'll be using the latest version of LinGoose, but if you want to specify a particular version you can use `go get` (replacing `VERSION` with the particular version desired)
 ```shell
-go get -d github.com/henomis/lingoose@VERSION
+go get -d github.com/jwfriese/lingoose@VERSION
 ```
 
 
@@ -124,13 +124,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/henomis/lingoose/assistant"
-	openaiembedder "github.com/henomis/lingoose/embedder/openai"
-	"github.com/henomis/lingoose/index"
-	"github.com/henomis/lingoose/index/vectordb/jsondb"
-	"github.com/henomis/lingoose/llm/openai"
-	"github.com/henomis/lingoose/rag"
-	"github.com/henomis/lingoose/thread"
+	"github.com/jwfriese/lingoose/assistant"
+	openaiembedder "github.com/jwfriese/lingoose/embedder/openai"
+	"github.com/jwfriese/lingoose/index"
+	"github.com/jwfriese/lingoose/index/vectordb/jsondb"
+	"github.com/jwfriese/lingoose/llm/openai"
+	"github.com/jwfriese/lingoose/rag"
+	"github.com/jwfriese/lingoose/thread"
 )
 
 func main() {

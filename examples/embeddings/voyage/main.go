@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	voyageembedder "github.com/henomis/lingoose/embedder/voyage"
-	"github.com/henomis/lingoose/index"
-	indexoption "github.com/henomis/lingoose/index/option"
-	"github.com/henomis/lingoose/index/vectordb/jsondb"
-	"github.com/henomis/lingoose/llm/antropic"
-	"github.com/henomis/lingoose/loader"
-	"github.com/henomis/lingoose/textsplitter"
-	"github.com/henomis/lingoose/thread"
-	"github.com/henomis/lingoose/types"
+	voyageembedder "github.com/jwfriese/lingoose/embedder/voyage"
+	"github.com/jwfriese/lingoose/index"
+	indexoption "github.com/jwfriese/lingoose/index/option"
+	"github.com/jwfriese/lingoose/index/vectordb/jsondb"
+	"github.com/jwfriese/lingoose/llm/antropic"
+	"github.com/jwfriese/lingoose/loader"
+	"github.com/jwfriese/lingoose/textsplitter"
+	"github.com/jwfriese/lingoose/thread"
+	"github.com/jwfriese/lingoose/types"
 )
 
 // download https://raw.githubusercontent.com/hwchase17/chat-your-data/master/state_of_the_union.txt

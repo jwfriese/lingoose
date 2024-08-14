@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/types"
 	"github.com/sashabaranov/go-openai"
 )
 

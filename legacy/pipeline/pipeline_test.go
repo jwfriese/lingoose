@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/types"
 )
 
 func Test_mergeMaps(t *testing.T) {
