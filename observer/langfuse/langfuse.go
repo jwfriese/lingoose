@@ -18,6 +18,26 @@ func New(ctx context.Context) *Langfuse {
 	}
 }
 
+type Config struct {
+	Host      string
+	PublicKey string
+	SecretKey string
+}
+
+func NewFromConfig(config Config, ctx context.Context) *Langfuse {
+	return &Langfuse{
+		client: langfusego.NewFromConfig(struct {
+			Host      string
+			PublicKey string
+			SecretKey string
+		}{
+			Host:      config.Host,
+			PublicKey: config.PublicKey,
+			SecretKey: config.SecretKey,
+		}, ctx),
+	}
+}
+
 func (l *Langfuse) WithFlushInterval(d time.Duration) *Langfuse {
 	l.client = l.client.WithFlushInterval(d)
 	return l
