@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	langfusego "github.com/henomis/langfuse-go"
-	"github.com/henomis/lingoose/observer"
+	langfusego "github.com/jwfriese/langfuse-go"
+	"github.com/jwfriese/lingoose/observer"
 )
 
 type Langfuse struct {

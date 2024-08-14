@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/henomis/lingoose/embedder"
+	"github.com/jwfriese/lingoose/embedder"
 )
 
 type LlamaCppEmbedder struct {

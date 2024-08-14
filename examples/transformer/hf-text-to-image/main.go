@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/henomis/lingoose/transformer"
+	"github.com/jwfriese/lingoose/transformer"
 )
 
 func main() {

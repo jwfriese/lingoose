@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/henomis/lingoose/llm/llamacpp"
+	"github.com/jwfriese/lingoose/llm/llamacpp"
 )
 
 func main() {

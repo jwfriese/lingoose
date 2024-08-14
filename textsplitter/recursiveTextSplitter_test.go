@@ -5,8 +5,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/henomis/lingoose/document"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/document"
+	"github.com/jwfriese/lingoose/types"
 )
 
 //nolint:dupword,funlen

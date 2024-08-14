@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/henomis/lingoose/transformer"
+	"github.com/jwfriese/lingoose/transformer"
 )
 
 func main() {

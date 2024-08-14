@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/henomis/lingoose/legacy/memory/ram"
-	"github.com/henomis/lingoose/legacy/pipeline"
-	"github.com/henomis/lingoose/legacy/prompt"
-	"github.com/henomis/lingoose/llm/openai"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/legacy/memory/ram"
+	"github.com/jwfriese/lingoose/legacy/pipeline"
+	"github.com/jwfriese/lingoose/legacy/prompt"
+	"github.com/jwfriese/lingoose/llm/openai"
+	"github.com/jwfriese/lingoose/types"
 )
 
 func main() {

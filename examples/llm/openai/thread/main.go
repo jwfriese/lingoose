@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/henomis/lingoose/llm/openai"
-	"github.com/henomis/lingoose/thread"
-	"github.com/henomis/lingoose/transformer"
+	"github.com/jwfriese/lingoose/llm/openai"
+	"github.com/jwfriese/lingoose/thread"
+	"github.com/jwfriese/lingoose/transformer"
 )
 
 type Image struct {

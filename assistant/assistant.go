@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	obs "github.com/henomis/lingoose/observer"
-	"github.com/henomis/lingoose/thread"
-	"github.com/henomis/lingoose/types"
+	obs "github.com/jwfriese/lingoose/observer"
+	"github.com/jwfriese/lingoose/thread"
+	"github.com/jwfriese/lingoose/types"
 )
 
 type Parameters struct {

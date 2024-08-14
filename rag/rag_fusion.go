@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/henomis/lingoose/index"
-	"github.com/henomis/lingoose/index/option"
-	obs "github.com/henomis/lingoose/observer"
-	"github.com/henomis/lingoose/thread"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/index"
+	"github.com/jwfriese/lingoose/index/option"
+	obs "github.com/jwfriese/lingoose/observer"
+	"github.com/jwfriese/lingoose/thread"
+	"github.com/jwfriese/lingoose/types"
 )
 
 var ragFusionPrompts = []string{

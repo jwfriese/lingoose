@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/henomis/lingoose/llm/openai"
+	"github.com/jwfriese/lingoose/llm/openai"
 )
 
 func main() {

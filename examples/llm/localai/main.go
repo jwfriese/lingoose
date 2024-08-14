@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/henomis/lingoose/llm/localai"
-	"github.com/henomis/lingoose/thread"
+	"github.com/jwfriese/lingoose/llm/localai"
+	"github.com/jwfriese/lingoose/thread"
 )
 
 func main() {

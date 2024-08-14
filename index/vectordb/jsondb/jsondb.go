@@ -10,10 +10,10 @@ import (
 	"sort"
 
 	"github.com/google/uuid"
-	"github.com/henomis/lingoose/embedder"
-	"github.com/henomis/lingoose/index"
-	"github.com/henomis/lingoose/index/option"
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/embedder"
+	"github.com/jwfriese/lingoose/index"
+	"github.com/jwfriese/lingoose/index/option"
+	"github.com/jwfriese/lingoose/types"
 )
 
 var _ index.VectorDB = &DB{}

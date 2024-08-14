@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	llamacppembedder "github.com/henomis/lingoose/embedder/llamacpp"
+	llamacppembedder "github.com/jwfriese/lingoose/embedder/llamacpp"
 )
 
 func main() {

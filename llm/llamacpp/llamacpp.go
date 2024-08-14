@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/henomis/lingoose/legacy/chat"
+	"github.com/jwfriese/lingoose/legacy/chat"
 )
 
 const (

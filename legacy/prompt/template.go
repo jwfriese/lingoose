@@ -5,7 +5,7 @@ import (
 	"fmt"
 	texttemplate "text/template"
 
-	"github.com/henomis/lingoose/types"
+	"github.com/jwfriese/lingoose/types"
 	"github.com/mitchellh/mapstructure"
 )
 
